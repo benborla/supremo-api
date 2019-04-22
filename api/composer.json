@@ -1,4 +1,6 @@
 {
+    "name": "benborla/supremo-api",
+    "description": "Webservice to support benborla/supremo-api",
     "type": "project",
     "license": "proprietary",
     "require": {
@@ -16,7 +18,12 @@
     },
     "require-dev": {
         "api-platform/schema-generator": "^2.1",
-        "symfony/profiler-pack": "^1.0"
+        "larapack/dd": "^1.1",
+        "symfony/debug-bundle": "4.2.*",
+        "symfony/maker-bundle": "^1.11",
+        "symfony/profiler-pack": "^1.0",
+        "symfony/var-dumper": "^4.2",
+        "symfony/web-server-bundle": "4.2.*"
     },
     "config": {
         "preferred-install": {
