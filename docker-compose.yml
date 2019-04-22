@@ -64,7 +64,7 @@ services:
       # You may use a bind-mounted host directory instead, so that it is harder to accidentally remove the volume and lose all your data!
        - ./docker/db/data:/var/lib/mysql/data:rw
     ports:
-      - "3306:3306"
+      - "3307:3306"
 
   mercure:
     # In production, you may want to use the managed version of Mercure, https://mercure.rocks
